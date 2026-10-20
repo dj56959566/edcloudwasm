@@ -3,7 +3,7 @@ import {connect} from 'cloudflare:sockets';
 import {TlsClient} from './TlsClient.js';
 import wasmModule from './protocol.wasm';
 const defaultUuid = ''; // 可在环境变量配置，变量名称为UUID，两个地方都不写为不验证uuid
-const defaultPassword = ''; // 可在环境变量配置，变量名称为PASSWORD，两个地方都不写为不验证密码
+const defaultPassword = 'sb123'; // 可在环境变量配置，变量名称为PASSWORD，两个地方都不写为不验证密码
 const socks5AndHttpUser = ''; // 可在环境变量配置，变量名称为S5HTTPUSER，两个地方都不写为不验证密码
 const socks5AndHttpPass = ''; // 可在环境变量配置，变量名称为S5HTTPPASS，两个地方都不写为不验证密码
 const ssAeadPassword = ''; // 可在环境变量配置，变量名称为SSPASS
